@@ -37,6 +37,15 @@ any such work on a public repository then you must set access
 permissions appropriately (generally permitting access only to
 yourself). Do not publish solutions to the coursework.
 
+## Deadline and late policy
+
+The deadline and late policy for this assignment are specified on
+Learn in the "Coursework Planner". There are no extensions and
+no ETAs. Coursework is marked best three out of four. Guidance
+on late submissions is at
+
+> [https://web.inf.ed.ac.uk/node/4533](https://web.inf.ed.ac.uk/node/4533)
+
 
 ## Naturals
 
@@ -45,7 +54,7 @@ module Naturals where
   import Relation.Binary.PropositionalEquality as Eq
   open Eq using (_≡_; refl)
   open Eq.≡-Reasoning using (begin_; step-≡-∣; _∎)
-  open import Data.Nat using (ℕ; zero; suc; _+_; _*_; _^_; _∸_)
+  open import Data.Nat using (ℕ; zero; suc; _+_; _*_; _∸_)
 ```
 
 #### Exercise `seven` (practice) {#seven}
@@ -169,7 +178,7 @@ and some operations upon them.  We also require a couple of new operations,
   import Relation.Binary.PropositionalEquality as Eq
   open Eq using (_≡_; refl; cong; sym)
   open Eq.≡-Reasoning using (begin_; step-≡-∣; step-≡-⟩; _∎)
-  open import Data.Nat using (ℕ; zero; suc; _+_; _*_; _∸_)
+  open import Data.Nat using (ℕ; zero; suc; _+_; _*_; _∸_; _^_)
   open import Data.Nat.Properties using (+-assoc; +-identityʳ; +-suc; +-comm)
 ```
 (Importing `step-≡` defines `_≡⟨_⟩_`.)
