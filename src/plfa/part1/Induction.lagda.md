@@ -301,7 +301,7 @@ yield the needed equation.
 
 A relation is said to be a _congruence_ for a given function if it is
 preserved by applying that function.  If `e` is evidence that `x ≡ y`,
-then `cong f e` is evidence that `f x ≡ f y`, for any function `f`.
+then `cong f e` is evidence that `f x ≡ f y`, for any deterministic function `f`.
 
 Here the inductive hypothesis is not assumed, but instead proved by a
 recursive invocation of the function we are defining, `+-assoc m n p`.
